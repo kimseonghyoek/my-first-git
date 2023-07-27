@@ -1,0 +1,17 @@
+{
+  "name": "my_profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.154.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.7"
+  }
+}
