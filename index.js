@@ -12,7 +12,8 @@ let light = new THREE.DirectionalLight(0xffffff,10); //조명
 scene.add(light);
 
 const renderer = new THREE.WebGL1Renderer({
-  canvas: document.querySelector("#canvas")
+  canvas: document.querySelector("#canvas"),
+  antialias: true
 });
 
 loader.load('./react_logo/scene.gltf', function ( gltf ) {
